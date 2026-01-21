@@ -8,6 +8,7 @@ public class MicroserviceCrudProductsReactiveApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MicroserviceCrudProductsReactiveApplication.class, args);
+		System.out.print("#######I run very gooooood##########");
 	}
 
 }

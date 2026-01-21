@@ -11,6 +11,6 @@ public interface ProductService {
     Mono<Product> productCode(int code);
     Mono<Void> saveProduct(Product product);
     Mono<Product> deleteProduct(int code);
-    Mono<Product> updateProduct(int code, double price);
+    Mono<Product> updatePrice(int code, double price);
 
 }

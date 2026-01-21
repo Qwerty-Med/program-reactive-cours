@@ -11,7 +11,7 @@ public class Product {
     private int codProduct;
     private String name;
     private String category;
-    private double priceUnitary;
+    private Double priceUnitary;
     private int stock;
 
 }
