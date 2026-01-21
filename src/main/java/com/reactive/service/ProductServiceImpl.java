@@ -13,11 +13,12 @@ import java.util.List;
 @Service
 public class ProductServiceImpl  implements ProductService{
 
-    private static List<Product> products = new ArrayList<>( List.of(       new Product(1022, "milk", "alimentation", 1.400,234),
-            new Product(1023, "milk", "alimentation", 1.400, 500),
-            new Product(1024, "tail", "home", 9099.0, 20),
-            new Product(1025, "boot", "alimentation", 900.0, 456),
-            new Product(1026, "hegs", "alimentation", 1900.0, 10000),
+    private static List<Product> products = new ArrayList<>( List.of(
+            new Product(1022, "milk", "alimentattion", 1.400,234),
+            new Product(1023, "arroz", "alimentattion", 1.400, 500),
+            new Product(1024, "tail", "alimentattion", 9099.0, 20),
+            new Product(1025, "boot", "alimentattion", 900.0, 456),
+            new Product(1026, "hegs", "alimentattion", 1900.0, 10000),
             new Product(1027, "television", "home", 13.4000, 49),
             new Product(1028, "iron", "home", 11.400, 458))
     );
